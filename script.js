@@ -1,4 +1,4 @@
-const whatsappNumber = "0684686562";
+const whatsappNumber = "0784686562";
 
 const products = [
   { name: "ملصق أنمي 1", price: 20, image: "img/p1.jpg" },
