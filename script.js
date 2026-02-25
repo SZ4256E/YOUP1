@@ -1,9 +1,9 @@
 const whatsappNumber = "0784686562";
 
 const products = [
-  { name: "ملصق أنمي 1", price: 20, image: "img/p1.jpg" },
-  { name: "ملصق أنمي 2", price: 25, image: "img/p2.jpg" },
-  { name: "ملصق أنمي 3", price: 30, image: "img/p3.jpg" }
+  { name: "ملصق أنمي 1", price: 10, image: "img/p1.jpg" },
+  { name: "ملصق أنمي 2", price: 10, image: "img/p2.jpg" },
+  { name: "ملصق أنمي 3", price: 10, image: "img/p3.jpg" }
 ];
 
 let cart = [];
