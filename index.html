@@ -27,3 +27,14 @@
   value="1" 
   min="1"
 />
+<p>الثمن: <span id="price">5</span> درهم</p>
+
+<script>
+  const quantityInput = document.getElementById("quantity");
+  const priceSpan = document.getElementById("price");
+  const unitPrice = 5;
+
+  quantityInput.addEventListener("input", () => {
+    priceSpan.textContent = quantityInput.value * unitPrice;
+  });
+</script>
