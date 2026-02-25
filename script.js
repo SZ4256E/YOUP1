@@ -63,3 +63,5 @@ function orderWhatsApp() {
 
   window.open(`https://wa.me/212${whatsappNumber}?text=${msg}`);
 }
+const quantity = document.getElementById("quantity").value;
+console.log("عدد الستيكرز:", quantity);
